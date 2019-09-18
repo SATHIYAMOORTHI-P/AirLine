@@ -35,7 +35,7 @@ public class Checking {
 				String f = sdf.format(dcv);
 				//System.out.println(f);
 			}
-		}
+		
 		else {
 			double nv = c.getNumericCellValue();
 			long l=(long)nv;
@@ -46,4 +46,5 @@ public class Checking {
 			}
 		}
 		}
+}
 }
